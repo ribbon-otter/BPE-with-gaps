@@ -1,0 +1,32 @@
+https://arxiv.org/pdf/2604.05192 Faster Superword Tokenization 
+Craig W. Schmidt & Chris Tanner, Yuval Pinter
+tokenization across word boundaries
+
+https://arxiv.org/pdf/2505.24689  BPE Stays on SCRIPT: Structured Encoding
+for Robust Multilingual Pretokenization
+Sander Land Catherine Arnett
+encoding characters by block and index tokens, and prevents partial character merges
+
+https://arxiv.org/pdf/2502.20273 How Much is Enough?
+The Diminishing Returns of Tokenization Training Data
+Varshini Reddy, Craig W. Schmidt, Yuval Pinter, Chris Tanner
+finds that move than 150GB of training english tokenization training data isn't that useful (kinda more complex though)
+
+https://arxiv.org/pdf/2603.25309
+Separate Before You Compress: The WWHO Tokenization Architecture
+Kusal Darshana
+linguisticly motivated language specific tokenizer - seems like an obvious thing to compare ourselves against
+
+
+https://arxiv.org/pdf/2403.06265 Unpacking Tokenization: Evaluating Text Compression and its Correlation
+with Model Performance
+Omer Goldman, Avi Caciularu, Matan Eyal,
+Kris Cao, Idan Szpektor, Reut Tsarfaty
+better compression in tokenization means better performance, particularly generation and small models
+
+
+# likely not that relevant
+
+https://arxiv.org/pdf/1807.09639 Finding Better Subword Segmentation for Neural Machine Translation
+Yingting Wu1,2 and Hai Zhao
+2018 paper - compares BPE with frequency with other metrics

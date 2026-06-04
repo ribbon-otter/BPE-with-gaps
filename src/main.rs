@@ -147,7 +147,7 @@ fn find_bpe_with_gaps_coding(data : &Vec<u8>,
 }
 
 fn main() {
-	let data: Vec<u8> = fs::read("./iliad-modern-greek.txt").unwrap();
+	let data: Vec<u8> = fs::read("./AliceInWonderland.txt").unwrap();
 	let ( tokens2, length2 ) = find_bpe_coding(&data, &HashSet::from([' ' as u16]), 100);
 	let ( tokens1, length1 ) = find_bpe_with_gaps_coding(&data, &HashSet::from([' ' as u16]), 100);
 	println!("{length1} / {length2} = {}", (length1 as f64) / (length2 as f64));
